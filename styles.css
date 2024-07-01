@@ -1,0 +1,278 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(245, 245, 245);
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+.title{
+    font-size: 55px;
+    font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, sans-serif;
+    font-weight: 500;
+    color:red;
+    width: 20%;
+    margin-left: 5%;
+}
+
+.block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 80%;
+}
+
+.elements{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    /* background-color: green; */
+  
+   
+}
+
+.elements div{
+    width: auto;
+    font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+
+
+}
+
+.dropdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.red{
+    color:red
+}
+
+.icons{
+    height: 80px;
+    width: 40%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    font-size:16px;
+    margin-left: 20px;
+}
+
+/* <!--============================= banner=========================== --> */
+
+img{
+    height: 70vh;
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* <!--============================= products=========================== --> */
+
+.products{
+    height: auto;
+    width: auto;
+    /* background-color: red; */
+    margin-top: 20px;
+    font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, sans-serif;
+}
+
+.container{
+    height: 50px;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.line2{
+    font-weight: bold;
+}
+
+.down_contianer{
+    height: auto;
+    width: 100%;
+    /* background-color: blue; */
+}
+
+.card{
+    height: 400px;
+    width: 18%;
+    /* background-color: yellow; */
+    padding: 20px;
+
+}
+
+.input{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.P_title{
+    font-weight: bold;
+    font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, sans-serif;
+    font-size:22px;
+}
+
+.content{
+    font-weight: 300;
+    font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, sans-serif;
+    font-size:15px;
+}
+
+.more{
+    color: rgb(0, 157, 255);
+}
+
+.down_contianer{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    column-gap: 10px;
+}
+
+.cards{
+    height: 400px;
+    width: 18%;
+    /* background-color: yellow; */
+    position: relative;
+
+
+}
+img{
+    height: 80%;
+    width: 100%;
+    /* background-color: red; */
+    position: relative;
+}
+
+.heart{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: rgb(234, 231, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 100;
+    z-index: 10;
+}
+
+.card_content{
+    padding-left: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: gray;
+}
+
+.card_title{
+    font-weight: bold;
+}
+
+.sixhund{
+    font-weight: bold;
+}
+
+/* <!-- -----------------------fresh------------------------- -->- */
+
+
+.fresh{
+    height: 500px;
+    width: 100%;
+    /* background-color: green; */
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    column-gap: 15px;
+
+}
+
+.fresh_title{
+    display: flex;
+    column-gap: 15px;
+}
+
+.blogs{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-left: 20px;
+
+}
+
+.arrow{
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.fresh_cards{
+    background-color: rgb(250, 240, 240);
+    width:30%;
+    height: 500px;
+    border-radius: 10px;
+}
+.fresh_card_content{
+    padding-left: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+
+.des{
+    font-size: 12px;
+}
+
+.contact_us{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.con{
+    height: 90%;
+    width: 80%;
+    background-color: red;
+}
